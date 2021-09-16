@@ -28,20 +28,20 @@ const Navbars = () => {
       </div>
       <div class="d-none d-sm-block flex w-full items-center" >
         <NavMenu>
-          <NavLink to="/" activeStyle>
+          <NavLink  className="text-white" to="/" activeStyle>
             Home
           </NavLink>
-          <NavLink to="/about" activeStyle>
+          <NavLink  className="text-white" to="/about" activeStyle>
             About
           </NavLink>
 
-          <NavLink to="/project" activeStyle>
+          <NavLink  className="text-white" to="/project" activeStyle>
             Project
           </NavLink>
-          <NavLink to="/blogs" activeStyle>
+          <NavLink  className="text-white" to="/blogs" activeStyle>
             Blogs
           </NavLink>
-          <NavLink to="/contact" activeStyle>
+          <NavLink  className="text-white" to="/contact" activeStyle>
             Contact
           </NavLink>
 
